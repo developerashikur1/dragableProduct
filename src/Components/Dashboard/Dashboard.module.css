@@ -1,0 +1,56 @@
+.addIcon {
+  background-color: rgba(128, 128, 128, 0.137) !important;
+  border-radius: 5rem !important;
+  border: none;
+  padding-top: 0.3rem;
+}
+.addIcon:hover {
+  cursor: pointer;
+}
+
+.paper {
+  /* border-left: 0.5rem solid green !important; */
+  position: relative;
+  padding: 0.7rem 0.5rem 0.1rem 0.5rem;
+}
+
+.moreViewIcon {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0px;
+}
+.category {
+  font-size: 7px !important;
+  border-radius: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.category1 {
+  background-color: #82efc6 !important;
+  color: #1e8961 !important;
+}
+
+.category2 {
+  background-color: #aedbfb !important;
+  color: #5399cb !important;
+}
+
+.category3 {
+  background-color: #f9bcbf !important;
+  color: #cb6f76;
+}
+
+@media only screen and (max-width: 768px) {
+  .category {
+    /* font-size: 5px !important; */
+    /* background-color: greenyellow !important; */
+    /* border-radius: 0.5rem;
+    padding: 0rem 0.5rem; */
+  }
+  /* .condition {
+    font-size: 5px !important;
+  } */
+}
